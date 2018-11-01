@@ -20,11 +20,11 @@ public class MainTest {
 
        capabilities.setCapability("platformName","Android");
         capabilities.setCapability("deviceName","Android");
-        capabilities.setCapability("platformVersion","7.1");
+        capabilities.setCapability("platformVersion","8.0");
         capabilities.setCapability("automationName","Appium");
         capabilities.setCapability("appPackage","org.wikipedia");
         capabilities.setCapability("appActivity",".main.MainActivity");
-        capabilities.setCapability("app","/JavaAppiumAutomation/apks/org.wikipedia.apk");
+        capabilities.setCapability("app","E:\\JavaAppiumAutomation\\apks\\org.wikipedia.apk");
 
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
