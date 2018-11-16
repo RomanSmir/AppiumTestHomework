@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -48,26 +47,48 @@ public class MainTest {
 @Test
     public void firstTest()
 {
-   WebElement element_to_init_search = driver.findElementByXPath("//*[contains(@text,'Search Wikipedia')]");
-    element_to_init_search.click();
+    waitForElementByXpathAndClik(
+            "//*[contains(@text,'Search Wikipedia')]",
+            "Cannot findSearch Wikipedia input",
+            5
 
-    WebElement element_to_enter_search_line = waitForElementPresentByXpath(
-            "//*[contains(@text, 'Search…')]",
-            "Cannot find search input"
     );
 
-    element_to_enter_search_line.sendKeys("Java");
+    waitForElementByXpathAndSendKeys(
+            "//*[contains(@text,'Search…')]",
+            "Java",
+            "Cannot find search input",
+            15
+
+    );
 
     waitForElementPresentByXpath(
-         "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']",
-         "Cannot find 'Java (programming language)'Java'",
-         20
-         );
+            "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']",
+            "Cannot find 'Java (programming language)'Java'",
+            15
+    );
 
-  // WebElement element_to_enter_search_line = waitForElementPresentByXpath(
-  //         "//*[contains(@text,'Search…')]",
-  //         "Cannot find search input,"
-  // );
+
+// WebElement element_to_init_search = driver.findElementByXPath("//*[contains(@text,'Search Wikipedia')]");
+//  element_to_init_search.click();
+
+//  WebElement element_to_enter_search_line = waitForElementPresentByXpath(
+//          "//*[contains(@text, 'Search…')]",
+//          "Cannot find search input"
+//  );
+
+//  element_to_enter_search_line.sendKeys("Java");
+
+//  waitForElementPresentByXpath(
+//       "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']",
+//       "Cannot find 'Java (programming language)'Java'",
+//       20
+//       );
+
+//WebElement element_to_enter_search_line = waitForElementPresentByXpath(
+//         "//*[contains(@text,'Search…')]",
+//        "Cannot find search input,"
+//);
 
 
 
@@ -90,5 +111,19 @@ private WebElement waitForElementPresentByXpath(String xpath, String error_messa
 {
     return waitForElementPresentByXpath(xpath,error_message,5);
 }
+
+private WebElement waitForElementByXpathAndClik(String xpath, String error_message, long timeoutInseconds)
+{
+    WebElement element = waitForElementPresentByXpath(xpath,error_message,timeoutInseconds);
+    element.click();
+    return element;
+}
+
+    private WebElement waitForElementByXpathAndSendKeys(String xpath, String value, String error_message, long timeoutInseconds)
+    {
+        WebElement element = waitForElementPresentByXpath(xpath,error_message,timeoutInseconds);
+        element.sendKeys(value);
+        return element;
+    }
 
 }

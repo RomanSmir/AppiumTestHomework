@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b05665-c5c7-47be-9937-6b68d7b8d931" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
     </list>
@@ -23,33 +23,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="343" />
+          <entry key="java" value="683" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="343" />
+          <entry key="JAVA" value="683" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +59,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1786#1787#0" expanded="true" />
+                <element signature="e#1823#1824#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +89,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX2.java" />
       </list>
     </option>
   </component>
@@ -157,37 +181,45 @@
       <option name="presentableId" value="Default" />
       <updated>1542198325800</updated>
     </task>
+    <task id="LOCAL-00001" summary="Проверка по тексту">
+      <created>1542292854624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542292854624</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2018.11.14 at 16h 52m 59s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.14 at 16h 55m 29s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.14 at 16h 57m 18s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.14 at 17h 02m 34s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.14 at 17h 08m 26s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.14 at 17h 11m 07s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.14 at 17h 31m 42s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.15 at 17h 02m 20s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_firstTest - 2018.11.15 at 17h 04m 50s.xml">
       <configuration name="MainTest.firstTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainTest_firstTest - 2018.11.15 at 17h 05m 28s.xml">
+      <configuration name="MainTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_firstTest - 2018.11.15 at 17h 38m 37s.xml">
+      <configuration name="MainTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_firstTest - 2018.11.15 at 17h 39m 58s.xml">
+      <configuration name="MainTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_firstTest - 2018.11.15 at 17h 44m 04s.xml">
+      <configuration name="MainTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_firstTest - 2018.11.16 at 14h 56m 58s.xml">
+      <configuration name="MainTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_firstTest - 2018.11.16 at 14h 58m 57s.xml">
+      <configuration name="MainTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_firstTest - 2018.11.16 at 15h 02m 54s.xml">
+      <configuration name="MainTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_firstTest - 2018.11.16 at 15h 04m 54s.xml">
+      <configuration name="MainTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_firstTest - 2018.11.16 at 15h 10m 58s.xml">
       <configuration name="MainTest.firstTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -198,15 +230,15 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -221,13 +253,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Проверка по тексту" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка по тексту" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
           </folding>
         </state>
       </provider>
