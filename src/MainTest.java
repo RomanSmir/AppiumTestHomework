@@ -68,6 +68,21 @@ public class MainTest {
             15
     );
 
+    waitForElementByXpathAndClik(
+            "//*[@resource-id='org.wikipedia:id/search_toolbar']//*[@index='0']",
+            "Cannot findSearch Wikipedia input",
+            5
+    );
+            waitForElementByXpathAndClik(
+                    "//*[contains(@text,'Java')]",
+                    "Cant find 'Java'",
+                    5
+
+            );
+
+
+
+
 
 // WebElement element_to_init_search = driver.findElementByXPath("//*[contains(@text,'Search Wikipedia')]");
 //  element_to_init_search.click();
