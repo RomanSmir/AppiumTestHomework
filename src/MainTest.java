@@ -79,34 +79,7 @@ public class MainTest {
                     5
 
             );
-
-
-
-
-
-// WebElement element_to_init_search = driver.findElementByXPath("//*[contains(@text,'Search Wikipedia')]");
-//  element_to_init_search.click();
-
-//  WebElement element_to_enter_search_line = waitForElementPresentByXpath(
-//          "//*[contains(@text, 'Search…')]",
-//          "Cannot find search input"
-//  );
-
-//  element_to_enter_search_line.sendKeys("Java");
-
-//  waitForElementPresentByXpath(
-//       "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']",
-//       "Cannot find 'Java (programming language)'Java'",
-//       20
-//       );
-
-//WebElement element_to_enter_search_line = waitForElementPresentByXpath(
-//         "//*[contains(@text,'Search…')]",
-//        "Cannot find search input,"
-//);
-
-
-
+            
 }
 
 private WebElement waitForElementPresentByXpath(String xpath, String error_message, long timeoutInSeconds)
