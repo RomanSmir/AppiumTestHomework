@@ -60,26 +60,26 @@ public class MainTest {
             "Cannot find search input",
             15
 
-    );
+   );
 
-    waitForElementPresentByXpath(
-            "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']",
-            "Cannot find 'Java (programming language)'Java'",
-            15
-    );
+//   waitForElementPresentByXpath(
+//           "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']",
+//           "Cannot find 'Java (programming language)'Java'",
+//           15
+//   );
 
-    waitForElementByXpathAndClik(
-            "//*[@resource-id='org.wikipedia:id/search_toolbar']//*[@index='0']",
-            "Cannot findSearch Wikipedia input",
-            5
-    );
-            waitForElementByXpathAndClik(
-                    "//*[contains(@text,'Java')]",
-                    "Cant find 'Java'",
-                    5
+//   waitForElementByXpathAndClik(
+//           "//*[@resource-id='org.wikipedia:id/search_toolbar']//*[@index='0']",
+//           "Cannot findSearch Wikipedia input",
+//           5
+//   );
+//           waitForElementByXpathAndClik(
+//                   "//*[contains(@text,'Java')]",
+//                   "Cant find 'Java'",
+//                   5
+//
+//           );
 
-            );
-            
 }
 
 private WebElement waitForElementPresentByXpath(String xpath, String error_message, long timeoutInSeconds)
