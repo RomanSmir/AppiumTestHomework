@@ -44,41 +44,57 @@ public class MainTest {
 
 
 
-@Test
-    public void firstTest()
-{
-    waitForElementByXpathAndClik(
-            "//*[contains(@text,'Search Wikipedia')]",
-            "Cannot findSearch Wikipedia input",
-            5
-
-    );
-
-    waitForElementByXpathAndSendKeys(
-            "//*[contains(@text,'Search…')]",
-            "Java",
-            "Cannot find search input",
-            15
-
-   );
-
-//   waitForElementPresentByXpath(
-//           "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']",
+//@Test
+//    public void firstTest()
+//{
+//    waitForElementByXpathAndClik(
+//            "//*[contains(@text,'Search Wikipedia')]",
+//            "Cannot findSearch Wikipedia input",
+//            5
+//
+//    );
+//
+//    waitForElementByXpathAndSendKeys(
+//            "//*[contains(@text,'Search…')]",
+//            "Java",
+//            "Cannot find search input",
+//            10
+//
+//    );
+//
+//    waitForElementPresentByXpath(
+//          "//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']",
 //           "Cannot find 'Java (programming language)'Java'",
 //           15
 //   );
 
-//   waitForElementByXpathAndClik(
-//           "//*[@resource-id='org.wikipedia:id/search_toolbar']//*[@index='0']",
-//           "Cannot findSearch Wikipedia input",
-//           5
-//   );
-//           waitForElementByXpathAndClik(
-//                   "//*[contains(@text,'Java')]",
-//                   "Cant find 'Java'",
-//                   5
-//
-//           );
+//}
+
+@Test
+public void testCompareArtcleTitle()
+{
+    waitForElementByIdAndClick(
+"org.wikipedia:id/search_container",
+    "Cannot find 'Search Wikipedia' input",
+            5
+    );
+
+
+
+    waitForElementByIdAndClick(
+            "org.wikipedia:id/search_close_btn",
+            "X is still present on the page",
+            5
+
+    );
+    waitForElementNotPresent(
+            "org.wikipedia:id/search_close_btn",
+            "Cannot find x to cancel search",
+            5
+    );
+
+
+
 
 }
 
@@ -113,5 +129,30 @@ private WebElement waitForElementByXpathAndClik(String xpath, String error_messa
         element.sendKeys(value);
         return element;
     }
+    private WebElement waitForElementPresentById(String id, String error_message, long timeoutInSeconds)
 
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+        wait.withMessage(error_message+"\n");
+        By by = By.id(id);
+        return wait.until(
+                ExpectedConditions.presenceOfElementLocated(by)
+
+        );
+        }
+        private WebElement waitForElementByIdAndClick(String id,  String error_message, long timeoutInseconds)
+        {
+            WebElement element = waitForElementPresentById(id,error_message,timeoutInseconds);
+            element.click();
+            return element;
+        }
+
+        private boolean waitForElementNotPresent(String id, String error_message, long timeOutInSeconds)
+        {
+            WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+            wait.withMessage(error_message+"\n");
+            By by =By.id(id);
+            return wait.until(
+                    ExpectedConditions.invisibilityOfElementLocated(by));
+        }
 }
