@@ -16,11 +16,13 @@
     <session id="813848676">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,14 +37,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1428" />
-          <entry key="txt" value="46" />
+          <entry key="java" value="2046" />
+          <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1428" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="JAVA" value="2046" />
+          <entry key="PLAIN_TEXT" value="53" />
         </counts>
       </usages-collector>
     </session>
@@ -52,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+            <state relative-caret-position="493">
+              <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +116,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -129,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testCompareArtcleTitle">
+  <component name="RunManager" selected="JUnit.MainTest.testCompareArticleTitle">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -148,6 +150,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testCancelSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.testCompareArtcleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -158,15 +170,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.testCompareArticleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testCompareArticleTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.MainTest.firstTest" />
       <item itemvalue="JUnit.MainTest" />
       <item itemvalue="JUnit.MainTest.testCompareArtcleTitle" />
+      <item itemvalue="JUnit.MainTest.testCancelSearch" />
+      <item itemvalue="JUnit.MainTest.testCompareArticleTitle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.testCompareArtcleTitle" />
+        <item itemvalue="JUnit.MainTest.testCompareArticleTitle" />
+        <item itemvalue="JUnit.MainTest.testCancelSearch" />
         <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testCompareArtcleTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -216,53 +242,60 @@
       <option name="project" value="LOCAL" />
       <updated>1542613604717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CancelSearchEX4">
+      <created>1542975801386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542975801386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_firstTest - 2018.11.16 at 17h 30m 44s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.16 at 17h 32m 44s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.19 at 10h 22m 55s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_firstTest - 2018.11.23 at 13h 48m 00s.xml">
-      <configuration name="MainTest.firstTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_testCompareArtcleTitle - 2018.11.23 at 13h 49m 20s.xml">
+    <history-entry file="MainTest_testCompareArtcleTitle - 2018.11.26 at 11h 51m 17s.xml">
       <configuration name="MainTest.testCompareArtcleTitle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testCompareArtcleTitle - 2018.11.23 at 13h 50m 06s.xml">
-      <configuration name="MainTest.testCompareArtcleTitle" configurationId="JUnit" />
+    <history-entry file="MainTest - 2018.11.26 at 11h 52m 54s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testCompareArtcleTitle - 2018.11.23 at 14h 08m 45s.xml">
-      <configuration name="MainTest.testCompareArtcleTitle" configurationId="JUnit" />
+    <history-entry file="MainTest - 2018.11.26 at 12h 15m 00s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testCompareArtcleTitle - 2018.11.23 at 14h 15m 40s.xml">
-      <configuration name="MainTest.testCompareArtcleTitle" configurationId="JUnit" />
+    <history-entry file="MainTest - 2018.11.26 at 12h 21m 24s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testCompareArtcleTitle - 2018.11.23 at 15h 05m 30s.xml">
-      <configuration name="MainTest.testCompareArtcleTitle" configurationId="JUnit" />
+    <history-entry file="MainTest_testCancelSearch - 2018.11.26 at 12h 41m 30s.xml">
+      <configuration name="MainTest.testCancelSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testCompareArtcleTitle - 2018.11.23 at 15h 08m 25s.xml">
-      <configuration name="MainTest.testCompareArtcleTitle" configurationId="JUnit" />
+    <history-entry file="MainTest_testCancelSearch - 2018.11.26 at 12h 43m 06s.xml">
+      <configuration name="MainTest.testCancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testCancelSearch - 2018.11.26 at 12h 44m 01s.xml">
+      <configuration name="MainTest.testCancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testCancelSearch - 2018.11.26 at 12h 54m 26s.xml">
+      <configuration name="MainTest.testCancelSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testCompareArticleTitle - 2018.11.26 at 13h 23m 32s.xml">
+      <configuration name="MainTest.testCompareArticleTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testCompareArticleTitle - 2018.11.26 at 13h 27m 30s.xml">
+      <configuration name="MainTest.testCompareArticleTitle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2457356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24147122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.14642082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,15 +343,16 @@
     <MESSAGE value="EX3Test" />
     <MESSAGE value="TestCancelSearchEX3" />
     <MESSAGE value="TestSearchEX2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestSearchEX2" />
+    <MESSAGE value="CancelSearchEX4" />
+    <option name="LAST_COMMIT_MESSAGE" value="CancelSearchEX4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX2.java" />
     <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX3CancelSearch.java" />
     <entry file="file://$PROJECT_DIR$/src/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        <state relative-caret-position="493">
+          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
