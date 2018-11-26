@@ -107,44 +107,76 @@ public class MainTest {
 //}
 
 
-   @Test
-   public void testCompareArticleTitle()
-   {
-           waitForElementAndClik(
-           By.xpath("//*[contains(@text,'Search Wikipedia')]"),
-    "Cannot find 'Search Wikipedia' input",
-            5
-            );
+//  @Test
+//  public void testCompareArticleTitle()
+//  {
+//          waitForElementAndClik(
+//          By.xpath("//*[contains(@text,'Search Wikipedia')]"),
+//   "Cannot find 'Search Wikipedia' input",
+//           5
+//           );
 
-    waitForElementAndSendKeys(
-            By.xpath("//*[contains(@text,'Search…')]"),
-        "Java",
+//   waitForElementAndSendKeys(
+//           By.xpath("//*[contains(@text,'Search…')]"),
+//       "Java",
+//               "Cannot find'Java'",
+//               5
+//               );
+
+//      waitForElementAndClik(
+//              By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']"),
+//              "Cannot find 'Search Wikipedia' input",
+//              15
+//      );
+//      WebElement title_element = waitForElementPresent(
+//            By.id("org.wikipedia:id/view_page_title_text"),
+//              "Cannot find article title",
+//              15
+
+//              );
+
+
+//      String article_title = title_element.getAttribute("text");
+
+//      Assert.assertEquals(
+//              "We see unexpected title",
+//              "Java (programming language)",
+//              article_title
+//      );
+//  }
+    @Test
+    public void testSearchWordsInAll()
+    {
+        waitForElementAndClik(
+                By.xpath("//*[contains(@text,'Search Wikipedia')]"),
+                "Cannot find 'Search Wikipedia' input",
+                5
+        );
+
+        waitForElementAndSendKeys(
+                By.xpath("//*[contains(@text,'Search…')]"),
+                "Java",
                 "Cannot find'Java'",
                 5
-                );
-
-       waitForElementAndClik(
-               By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java (programming language)']"),
-               "Cannot find 'Search Wikipedia' input",
-               15
-       );
-       WebElement title_element = waitForElementPresent(
-             By.id("org.wikipedia:id/view_page_title_text"),
-               "Cannot find article title",
-               15
-
-               );
+        );
 
 
-       String article_title = title_element.getAttribute("text");
+        WebElement title_element = waitForElementPresent(
+                By.id("org.wikipedia:id/page_list_item_container"),
+                "Cannot find article title",
+                15
 
-       Assert.assertEquals(
-               "We see unexpected title",
-               "Java (programming language)",
-               article_title
-       );
-   }
+        );
 
+
+        String article_title = title_element.getAttribute("text");
+
+        Assert.assertEquals(
+                "We see unexpected title",
+                "Java",
+                article_title
+        );
+    }
     private WebElement waitForElementPresent(By by, String error_message, long timeoutInSeconds)
 
 {
