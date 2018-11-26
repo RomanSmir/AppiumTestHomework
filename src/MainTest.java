@@ -162,7 +162,7 @@ public class MainTest {
 
 
         WebElement title_element = waitForElementPresent(
-                By.id("org.wikipedia:id/page_list_item_container"),
+                By.xpath("//*[@resource-id='org.wikipedia:id/page_list_item_container']//*[@text='Java']"),
                 "Cannot find article title",
                 15
 
