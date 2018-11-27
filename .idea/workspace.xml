@@ -309,9 +309,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 10h 47m 41s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 10h 50m 19s.xml">
       <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
     </history-entry>
@@ -337,6 +334,9 @@
       <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 11h 11m 56s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 11h 48m 21s.xml">
       <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
     </history-entry>
   </component>
