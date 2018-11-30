@@ -401,7 +401,7 @@ public class MainTest {
         );
 
         waitForElementAndCliсk(
-                By.xpath("//*[@text='"+name_of_folder+"']"),
+                By.xpath("//*[@text='" + name_of_folder + "']"),
                 "Cannot open link  Learn programming",
                 5
         );
@@ -413,49 +413,45 @@ public class MainTest {
 
         String title_element = title_elements.getAttribute("text");
 
-     Assert.assertEquals(
-             "We see unexpected title",
-             "JavaScript",
-             title_element
-     );
+        Assert.assertEquals(
+                "We see unexpected title",
+                "JavaScript",
+                title_element
+        );
 
     }
     //@Test
     //public void amountEmptySearch() //{ //waitForElementAndCliсk(
-            //By.xpath("//*[contains(@text,'Search Wikipedia')]"),
-            //"Cannot find 'Search Wikipedia' input",
-            //5
+    //By.xpath("//*[contains(@text,'Search Wikipedia')]"),
+    //"Cannot find 'Search Wikipedia' input",
+    //5
     //);
 
     //String search_line = "Linkin park Diskography";
     //waitForElementAndSendKeys(
-            //By.xpath("//*[contains(@text,'Search…')]"),
-            //search_line,
-            //"Cannot find search input",
-            //5
+    //By.xpath("//*[contains(@text,'Search…')]"),
+    //search_line,
+    //"Cannot find search input",
+    //5
     //);
 
     //String search_result_locator = "//*[@resource-id='org.wikipedia:id/search_results_list']/*[@resource-id='org.wikipedia:id/page_list_item_container']";
     //waitForElementPresent(
-            //By.xpath(search_result_locator),
-            //"Cannot find anything by the request " + search_line,
-            //15
+    //By.xpath(search_result_locator),
+    //"Cannot find anything by the request " + search_line,
+    //15
     //);
 
     //int amount_of_search_results = getAmountOfElement(
-            //By.xpath(search_result_locator)
+    //By.xpath(search_result_locator)
     //);
 
     //Assert.assertTrue(
-            //"We found too few results!",
-            //amount_of_search_results > 0
+    //"We found too few results!",
+    //amount_of_search_results > 0
     //);
 
-
-
-
-
-    }
+    // }
 
 
     private WebElement waitForElementPresent(By by, String error_message, long timeoutInSeconds) {
@@ -538,8 +534,7 @@ public class MainTest {
                 .perform();
     }
 
-    private int getAmountOfElement(By by)
-    {
+    private int getAmountOfElement(By by) {
         List elements = driver.findElements(by);
         return elements.size();
     }

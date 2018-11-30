@@ -44,14 +44,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4911" />
-          <entry key="txt" value="106" />
+          <entry key="java" value="4928" />
+          <entry key="txt" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4911" />
-          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="JAVA" value="4928" />
+          <entry key="PLAIN_TEXT" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="397" column="72" selection-start-line="397" selection-start-column="72" selection-end-line="397" selection-end-column="72" />
+            <state relative-caret-position="-4360">
+              <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -372,13 +372,17 @@
       <option name="project" value="LOCAL" />
       <updated>1543308721170</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="EX5">
+      <created>1543567850284</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543567850284</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_amountEmptySearch - 2018.11.29 at 17h 03m 39s.xml">
-      <configuration name="MainTest.amountEmptySearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_amountEmptySearch - 2018.11.29 at 17h 09m 19s.xml">
       <configuration name="MainTest.amountEmptySearch" configurationId="JUnit" />
     </history-entry>
@@ -404,6 +408,9 @@
       <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 45m 48s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 48m 06s.xml">
       <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -471,15 +478,16 @@
     <MESSAGE value="EX4TestExspectWord" />
     <MESSAGE value="EX4TestExspectWordNew" />
     <MESSAGE value="Swipeanddel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swipeanddel" />
+    <MESSAGE value="EX5" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX2.java" />
     <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX3CancelSearch.java" />
     <entry file="file://$PROJECT_DIR$/src/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="397" column="72" selection-start-line="397" selection-start-column="72" selection-end-line="397" selection-end-column="72" />
+        <state relative-caret-position="-4360">
+          <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
