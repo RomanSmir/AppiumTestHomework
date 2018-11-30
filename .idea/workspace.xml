@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b05665-c5c7-47be-9937-6b68d7b8d931" name="Default Changelist" comment="Swipe">
+    <list default="true" id="51b05665-c5c7-47be-9937-6b68d7b8d931" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
     </list>
@@ -16,44 +16,47 @@
     <session id="813848676">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3956" />
-          <entry key="txt" value="100" />
+          <entry key="java" value="4911" />
+          <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3956" />
-          <entry key="PLAIN_TEXT" value="100" />
+          <entry key="JAVA" value="4911" />
+          <entry key="PLAIN_TEXT" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.checkout.local" value="2" />
           <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
@@ -64,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="287" column="39" lean-forward="true" selection-start-line="287" selection-start-column="39" selection-end-line="287" selection-end-column="39" />
+            <state relative-caret-position="156">
+              <caret line="397" column="72" selection-start-line="397" selection-start-column="72" selection-end-line="397" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +89,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Swipe" />
+        <entry key="$PROJECT_DIR$" value="SwipeDeal" />
       </map>
     </option>
   </component>
@@ -116,8 +119,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,7 +155,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.saveFirstAndArticleToMyList">
+  <component name="RunManager" selected="JUnit.MainTest.saveFirstAndArticleToMyListеее">
+    <configuration name="MainTest.amountEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="amountEmptySearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.firstTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -173,21 +186,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.saveFirstAndArticleToMyListеее" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testCancelSearch" />
+      <option name="METHOD_NAME" value="saveFirstAndArticleToMyListеее" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testCompareArticleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.saveFirstAndArticleToMyListеее" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="testCompareArticleTitle" />
+      <option name="METHOD_NAME" value="saveFirstAndArticleToMyListеее" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.saveFirstAndArticleToMyListеее" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="saveFirstAndArticleToMyListеее" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.saveFirstAndArticleToMyListеее" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="saveFirstAndArticleToMyListеее" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.saveFirstAndArticleToMyListеее" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="saveFirstAndArticleToMyListеее" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.saveFirstAndArticleToMyListеее" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="saveFirstAndArticleToMyListеее" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,19 +268,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MainTest.firstTest" />
-      <item itemvalue="JUnit.MainTest.testCancelSearch" />
-      <item itemvalue="JUnit.MainTest.testCompareArticleTitle" />
       <item itemvalue="JUnit.MainTest.testSearchWordsInAll" />
       <item itemvalue="JUnit.MainTest.testSwipeArticle" />
       <item itemvalue="JUnit.MainTest.saveFirstAndArticleToMyList" />
+      <item itemvalue="JUnit.MainTest.amountEmptySearch" />
+      <item itemvalue="JUnit.MainTest.saveFirstAndArticleToMyListеее" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.saveFirstAndArticleToMyListеее" />
+        <item itemvalue="JUnit.MainTest.amountEmptySearch" />
         <item itemvalue="JUnit.MainTest.saveFirstAndArticleToMyList" />
         <item itemvalue="JUnit.MainTest.testSwipeArticle" />
         <item itemvalue="JUnit.MainTest.testSearchWordsInAll" />
-        <item itemvalue="JUnit.MainTest.testCompareArticleTitle" />
-        <item itemvalue="JUnit.MainTest.testCancelSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -305,46 +358,60 @@
       <option name="project" value="LOCAL" />
       <updated>1543233263153</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Swipeanddel">
+      <created>1543308559531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543308559531</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Swipeanddel">
+      <created>1543308721170</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543308721170</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 10h 50m 19s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_amountEmptySearch - 2018.11.29 at 17h 03m 39s.xml">
+      <configuration name="MainTest.amountEmptySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 10h 51m 45s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_amountEmptySearch - 2018.11.29 at 17h 09m 19s.xml">
+      <configuration name="MainTest.amountEmptySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 10h 53m 37s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 10h 51m 04s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 10h 56m 47s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_amountEmptySearch - 2018.11.30 at 11h 25m 35s.xml">
+      <configuration name="MainTest.amountEmptySearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 11h 02m 45s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 27m 45s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 11h 07m 21s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 37m 31s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 11h 09m 11s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 38m 48s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 11h 10m 10s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 40m 47s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 11h 11m 56s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 44m 28s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyList - 2018.11.27 at 11h 48m 21s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyList" configurationId="JUnit" />
+    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 45m 48s.xml">
+      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-8" width="1863" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23294508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23187633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -364,7 +431,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.10094287" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.09701493" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -403,15 +470,16 @@
     <MESSAGE value="CancelSearchEX_Assert" />
     <MESSAGE value="EX4TestExspectWord" />
     <MESSAGE value="EX4TestExspectWordNew" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX4TestExspectWordNew" />
+    <MESSAGE value="Swipeanddel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swipeanddel" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX2.java" />
     <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX3CancelSearch.java" />
     <entry file="file://$PROJECT_DIR$/src/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="287" column="39" lean-forward="true" selection-start-line="287" selection-start-column="39" selection-end-line="287" selection-end-column="39" />
+        <state relative-caret-position="156">
+          <caret line="397" column="72" selection-start-line="397" selection-start-column="72" selection-end-line="397" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
