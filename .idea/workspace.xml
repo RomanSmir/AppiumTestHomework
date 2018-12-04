@@ -28,35 +28,36 @@
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4928" />
+          <entry key="java" value="5723" />
           <entry key="txt" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4928" />
+          <entry key="JAVA" value="5723" />
           <entry key="PLAIN_TEXT" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.checkout.local" value="3" />
           <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
@@ -67,10 +68,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4360">
-              <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+            <state relative-caret-position="-399">
+              <caret line="486" column="17" lean-forward="true" selection-start-line="486" selection-start-column="17" selection-end-line="486" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#16199#16200#0" expanded="true" />
+                <element signature="e#16227#16228#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +92,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SwipeDeal" />
+        <entry key="$PROJECT_DIR$" value="EX5" />
       </map>
     </option>
   </component>
@@ -120,7 +123,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -155,12 +158,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.saveFirstAndArticleToMyListеее">
+  <component name="RunManager" selected="JUnit.MainTest.assertTitle">
     <configuration name="MainTest.amountEmptySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAppiumAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
       <option name="METHOD_NAME" value="amountEmptySearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.assertTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppiumAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="assertTitle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -272,11 +285,11 @@
       <item itemvalue="JUnit.MainTest.testSwipeArticle" />
       <item itemvalue="JUnit.MainTest.saveFirstAndArticleToMyList" />
       <item itemvalue="JUnit.MainTest.amountEmptySearch" />
-      <item itemvalue="JUnit.MainTest.saveFirstAndArticleToMyListеее" />
+      <item itemvalue="JUnit.MainTest.assertTitle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.saveFirstAndArticleToMyListеее" />
+        <item itemvalue="JUnit.MainTest.assertTitle" />
         <item itemvalue="JUnit.MainTest.amountEmptySearch" />
         <item itemvalue="JUnit.MainTest.saveFirstAndArticleToMyList" />
         <item itemvalue="JUnit.MainTest.testSwipeArticle" />
@@ -379,25 +392,17 @@
       <option name="project" value="LOCAL" />
       <updated>1543567850284</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="EX5">
+      <created>1543567891847</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543567891847</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_amountEmptySearch - 2018.11.29 at 17h 09m 19s.xml">
-      <configuration name="MainTest.amountEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 10h 51m 04s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_amountEmptySearch - 2018.11.30 at 11h 25m 35s.xml">
-      <configuration name="MainTest.amountEmptySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 27m 45s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 37m 31s.xml">
-      <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 38m 48s.xml">
       <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
@@ -413,12 +418,27 @@
     <history-entry file="MainTest_saveFirstAndArticleToMyListеее - 2018.11.30 at 11h 48m 06s.xml">
       <configuration name="MainTest.saveFirstAndArticleToMyListеее" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_assertTitle - 2018.12.04 at 14h 43m 06s.xml">
+      <configuration name="MainTest.assertTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_assertTitle - 2018.12.04 at 14h 44m 11s.xml">
+      <configuration name="MainTest.assertTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_assertTitle - 2018.12.04 at 16h 59m 36s.xml">
+      <configuration name="MainTest.assertTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_assertTitle - 2018.12.04 at 17h 02m 27s.xml">
+      <configuration name="MainTest.assertTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_assertTitle - 2018.12.04 at 17h 03m 36s.xml">
+      <configuration name="MainTest.assertTitle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23187633" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23454158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -486,10 +506,12 @@
     <entry file="file://$PROJECT_DIR$/src/HomeWorkTestLowTestAppiumEX3CancelSearch.java" />
     <entry file="file://$PROJECT_DIR$/src/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4360">
-          <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+        <state relative-caret-position="-399">
+          <caret line="486" column="17" lean-forward="true" selection-start-line="486" selection-start-column="17" selection-end-line="486" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#16199#16200#0" expanded="true" />
+            <element signature="e#16227#16228#0" expanded="true" />
           </folding>
         </state>
       </provider>
